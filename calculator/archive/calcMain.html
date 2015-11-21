@@ -1,0 +1,51 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title> Calculator </title>
+
+	<script type="text/javascript">
+		var a, b, result;
+		function setValues(){
+			a = Number(document.getElementById("a").value);
+			b = Number(document.getElementById("b").value);
+		}
+		function sum(){
+			setValues();
+			result = a + b;
+			alert("The sum is equals to " + result);
+
+		}
+		function subtract(){
+			setValues();
+			result = a - b;
+			alert("The subtraction is equals to " + result);
+
+		}
+		function multiply(){
+			setValues();
+			result = a * b;
+			alert("The multiplocation is equals to " + result);
+
+		}
+		function divide(){
+			setValues();
+			result = a / b;
+			alert("The division is equals to " + result);
+
+		}
+
+	</script>
+</head>
+<body>
+
+	<div>
+		<input id="a" type="text">
+		<input id="b" type="text">
+		<input type="button" onclick="sum()" value="sum"/>
+		<input type="button" onclick="subtract()" value="substract"/>
+		<input type="button" onclick="multiply()" value="multiply"/>
+		<input type="button" onclick="divide()" value="divide"/>
+	</div>
+
+</body>
+</html>

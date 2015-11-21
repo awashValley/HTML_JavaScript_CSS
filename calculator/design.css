@@ -1,0 +1,64 @@
+#calculator		/* hash (#) is used bcoz I used ID in HTML */
+{
+	width: 250px;
+	height: 350px;
+	border: 3px solid black;		/*	border property is used to give width size, style and color to element. */
+	text-align: center;
+	background: lightgreen;
+	margin: 150px auto;				/*	the option 'auto' puts the calculator at the center of the page, but in the first line.
+									Thus adding '150px' pushes the figure down, i.e., 150px margin from the top. */
+	box-shadow: 0px 0px 100px gray;
+}
+
+#display
+{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	width: 220px;
+	height: 30px;	
+	border: 1px solid red;
+	box-shadow: 0px 0px 10px red;
+	text-align: right;				/*	to write from right to the left, like any calculator does. */
+	font: 20px bold;
+	color: blue;
+}
+
+#keys
+{
+	width: 41px;
+	height: 35px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	box-shadow: 0px 0px 50px skyblue;
+	cursor: pointer;					/*	The cursor property specifies which type of cursor to be displayed 
+											when pointing on an element. */
+}
+
+#keys:hover								/*	:hover selector is used to select elements when you move over them. */
+{
+	background: yellow;
+	font-weight: bold;
+}
+
+#equal									/*	the same property as the KEYS, but change only the width. Then, give it some effects. */								
+{
+	width: 90px;
+	height: 35px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	box-shadow: 0px 0px 50px skyblue;
+	cursor: pointer;
+}
+
+#equal:hover
+{
+	background: yellow;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
