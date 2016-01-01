@@ -5,13 +5,22 @@
 <style>
 body {
   font-family: helvetica, sans-serif;
+  margin: 0 auto;         // NOT "0px", just "0". It helps to position everythin in the body at the center 
   max-width: 600px;   // responsive display
 }
 div {
   height: 200px;
-  background-image: url(http://dash.ga.co/assets/firstcourse.jpg);
-  background-size: cover; // it stretches the image out to the full screen width
-  margin: 0 auto;         // NOT "0px", just "0". It helps the background image to be at the center           
+  /*background-image: url(http://dash.ga.co/assets/firstcourse.jpg);*/
+  background-size: cover;
+}
+.first {
+  background: url(http://dash.ga.co/assets/firstcourse.jpg);
+}
+.second {
+  background: url(http://dash.ga.co/assets/secondcourse.jpg);
+}
+.dessert {
+  background: url(http://dash.ga.co/assets/dessertcourse.jpg);
 }
 </style>
 
