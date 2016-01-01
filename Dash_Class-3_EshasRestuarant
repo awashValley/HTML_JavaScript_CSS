@@ -5,6 +5,7 @@
 <style>
 body {
   font-family: helvetica, sans-serif;
+  max-width: 600px;   // responsive display
 }
 div {
   height: 200px;
