@@ -9,7 +9,8 @@ body {
 div {
   height: 200px;
   background-image: url(http://dash.ga.co/assets/firstcourse.jpg);
-  background-size: cover;     // helps to adjust bacground image
+  background-size: cover; // it stretches the image out to the full screen width
+  margin: 0 auto;         // NOT "0px", just "0". It helps the background image to be at the center           
 }
 </style>
 
