@@ -9,6 +9,7 @@ body {
 div {
   height: 200px;
   background-image: url(http://dash.ga.co/assets/firstcourse.jpg);
+  background-size: cover;     // helps to adjust bacground image
 }
 </style>
 
