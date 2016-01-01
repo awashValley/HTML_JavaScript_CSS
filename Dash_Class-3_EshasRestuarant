@@ -17,22 +17,27 @@ div {
 }
 .first {
   background: url(http://dash.ga.co/assets/firstcourse.jpg);
+  margin: 40px 0 0 0;
+  border-radius: 12px;
 }
 .second {
   background: url(http://dash.ga.co/assets/secondcourse.jpg);
+  margin: 40px 0 0 0;
+  border-radius: 12px;
 }
 .dessert {
   background: url(http://dash.ga.co/assets/dessertcourse.jpg);
+  margin: 40px 0 0 0;
+  border-radius: 12px;
 }
 p {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,1);
   color: rgba(255,255,255,1);
   padding: 10px;
   text-align: justify;
   line-height: 28px;
-  position: relative;
-  bottom: 0;
-  margin: 40px 0 0 0;
+  position: absolute;
+  margin: 100px 75px 50px 0;
 }
 </style>
 
