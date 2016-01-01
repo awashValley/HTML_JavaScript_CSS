@@ -5,7 +5,9 @@
 <style>
 body {
   font-family: helvetica, sans-serif;
-  margin: 0 auto;         // NOT "0px", just "0". It helps to position everythin in the body at the center 
+  margin: 0 auto;         // NOT "0px", just "0". It helps to position everythin in the body at the center.
+                          // The first value (0) controls the top and bottom margin, and the second value
+                          // (which could be a number) controls the left and right margin.
   max-width: 600px;   // responsive display
 }
 div {
@@ -21,6 +23,16 @@ div {
 }
 .dessert {
   background: url(http://dash.ga.co/assets/dessertcourse.jpg);
+}
+p {
+  background: rgba(0,0,0,0.5);
+  color: rgba(255,255,255,1);
+  padding: 10px;
+  text-align: justify;
+  line-height: 28px;
+  position: relative;
+  bottom: 0;
+  margin: 40px 0 0 0;
 }
 </style>
 
