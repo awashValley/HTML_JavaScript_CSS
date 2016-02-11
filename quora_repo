@@ -1,0 +1,10 @@
+## What is the difference between "id" and "class" attributes in HTML?
+   - [Zeeshan Siddiqui: December 2015] 
+     -> ID is for Identification. Class is for Classification.
+     -> A human being is identified uniquely by a name. He is classified as an animal too.
+     -> There are several breeds/classifications of dogs. And each dog can be uniquely identified by its name or characteristics.
+     -> Similarly, an HTML element which is uniquely identifiable via its function/purpose on a webpage or in an application is 
+        given the attribute ID. It can also be given a Class to enable grouping of similar characteristics elements.
+     -> Eg. There can be many blue buttons. Hence ".blue" becomes a class. But on Login page there can be only one "Login" button,
+            hence the ID: btnLogin. This button can be blue as well. Therefore;
+            <button id="btnLogin" class="blue btn">Login</button>
